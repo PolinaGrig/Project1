@@ -1,4 +1,4 @@
     
 language: java
-jdk: oraclejdk11.2
-script: Hello.java
+jdk: oraclejdk9
+script: Project.java
