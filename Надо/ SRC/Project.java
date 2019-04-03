@@ -1,15 +1,14 @@
+import java.util.Scanner;
+public class Nomer2 {
 
-public class Project {
-	/* опредеделение класса */
-	
-	
 	public static void main(String[] args) {
-	/* основная функция */
-		
-	System.out.println("Grigoreva, Zubairova");
-		/* вывод на экран " Grigoreva, Zubairova" /*
-
+		Scanner in = new Scanner(System.in);
+		System.out.print("Введите число: ");
+		String a = in.nextLine();
+		System.out.println("Число: " + a.charAt(1) + a.charAt(0) + a.charAt(2) );
 	}
 
 }
-/* завершение функции */
+
+
+
